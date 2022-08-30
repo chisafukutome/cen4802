@@ -14,7 +14,7 @@ public class Main {
             return n;
         }//when n is 0 or 1
 
-        //recursion
+        //recursion (call function inside of a function)
         return fibonacci(n - 1) + fibonacci(n - 2);
     }//end fibonacci method
 }//end Main Class
