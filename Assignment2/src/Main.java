@@ -6,6 +6,18 @@ public class Main {
         System.out.println("The " + num + "th term of the Fibonacci sequence is " + nth);
     }//end main method
 
+    /*
+    Returns the value in nth term of fibonacci sequence.
+    The argument of n represents n th term of the fibonacci.
+
+    <p>
+        This method is recursive which takes n th term of fibonacci then returns its value of nth term.
+    </p>
+
+    @param n represents n th term of fibonacci sequence
+    @return the value of nth term of fibonacci sequence
+    @author Chisa Fukutome
+     */
     public static int fibonacci(int n) {
         if (n < 0) {
             return -1;
@@ -17,5 +29,6 @@ public class Main {
         //recursion (call function inside of a function)
         return fibonacci(n - 1) + fibonacci(n - 2);
     }//end fibonacci method
+
 
 }//end Main Class
